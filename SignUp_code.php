@@ -38,7 +38,7 @@ if(!empty($username)){
                       icon: "error",
                        }).then(okay => {
                         if (okay) {
-                    window.location.href = "http://localhost/Vinit_Patel/DIET/BE/signup.html";
+                    window.location.href = "https://parekhnikhil1608.github.io/E-learning/Nikhil/DIET/BE/signup.html";
                      }
                 });
             </script>';
@@ -55,7 +55,7 @@ if(!empty($username)){
                       icon: "success",
                        }).then(okay => {
                         if (okay) {
-                    window.location.href = "http://localhost/Vinit_Patel/DIET/BE/login1.html";
+                    window.location.href = "https://parekhnikhil1608.github.io/E-learning/Nikhil/DIET/BE/login1.html";
                      }
                 });
             </script>';
@@ -68,7 +68,7 @@ if(!empty($username)){
                          icon: "error",
                           }).then(okay => {
                            if (okay) {
-                       window.location.href = "http://localhost/Vinit_Patel/DIET/BE/signup.html";
+                       window.location.href = "https://parekhnikhil1608.github.io/E-learning/Nikhil/DIET/BE/signup.html";
                         }
                    });
                </script>';
@@ -83,7 +83,7 @@ if(!empty($username)){
              icon: "warning",
               }).then(okay => {
                if (okay) {
-           window.location.href = "http://localhost/Vinit_Patel/DIET/BE/signup.html";
+           window.location.href = "https://parekhnikhil1608.github.io/E-learning/Nikhil/DIET/BE/signup.html";
             }
        });
    </script>';
@@ -98,7 +98,7 @@ if(!empty($username)){
          icon: "warning",
           }).then(okay => {
            if (okay) {
-       window.location.href = "http://localhost/Vinit_Patel/DIET/BE/signup.html";
+       window.location.href = "https://parekhnikhil1608.github.io/E-learning/Nikhil/DIET/BE/signup.html";
         }
    });
 </script>';
@@ -112,7 +112,7 @@ if(!empty($username)){
      icon: "warning",
       }).then(okay => {
        if (okay) {
-   window.location.href = "http://localhost/Vinit_Patel/DIET/BE/signup.html";
+   window.location.href = "https://parekhnikhil1608.github.io/E-learning/Nikhil/DIET/BE/signup.html";
     }
 });
 </script>';

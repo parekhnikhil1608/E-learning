@@ -23,7 +23,7 @@
 
     }else{
         echo '<script>
-        window.location.href = "http://localhost/Education/Vinit_Patel/DIET/BE/login1.html";
+        window.location.href = "https://parekhnikhil1608.github.io/E-learning/Nikhil/DIET/BE/login1.html";
         </script>';
     }
     
@@ -202,17 +202,17 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="http://localhost/Education/Vinit_Patel/DIET/BE/profile.html">About</a>
+                    <a class="nav-link " href="https://parekhnikhil1608.github.io/E-learning/Nikhil/DIET/BE/profile.html">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="http://localhost/Education/Vinit_Patel/DIET/BE/OUR_CONTACTS.html">Contact Us</a>
+                    <a class="nav-link " href="https://parekhnikhil1608.github.io/E-learning/Nikhil/DIET/BE/OUR_CONTACTS.html">Contact Us</a>
                 </li>
                 
             </ul>
            
         </div>
         <div class="text-end">
-            <a class="btn btn-warning" href="http://localhost/Education/logout.php">Logout</a>
+            <a class="btn btn-warning" href="https://parekhnikhil1608.github.io/E-learning/logout.php">Logout</a>
           </div>   
     </nav>
 

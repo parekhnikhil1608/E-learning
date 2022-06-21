@@ -35,7 +35,7 @@ if(isset($_POST['username'])){
                       icon: "success",
                        }).then(okay => {
                         if (okay) {
-                    window.location.href = "http://localhost/Education/home.php";
+                    window.location.href = "https://parekhnikhil1608.github.io/E-learning/home.php";
                      }
                 });
             </script>';
@@ -48,7 +48,7 @@ if(isset($_POST['username'])){
                       icon: "error",
                        }).then(okay => {
                         if (okay) {
-                    window.location.href = "http://localhost/Education/Vinit_Patel/DIET/BE/login1.html";
+                    window.location.href = "https://parekhnikhil1608.github.io/E-learning/Nikhil/DIET/BE/login1.html";
                      }
                 });
             </script>';
