@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="book_img.png">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">  
+    <title>Contact Us</title>
+    <style>
+        .nav_img {
+            height: 30px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body class="bg-dark text-white">
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <img class="nav_img" src="book_img.png" alt="error">
+        <a class="navbar-brand" href="#">Education</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="http://localhost/Education/home.php">Home </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Video Link 
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="https://youtube.com/playlist?list=PLBlnK6fEyqRgMCUAG0XRw78UA8qnv6jEx" title="Computer Network">CN</a>
+                            <a class="dropdown-item" href="https://youtube.com/playlist?list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O" title="Operating System">OS</a>
+                            <a class="dropdown-item" href="https://youtube.com/playlist?list=PL9zFgBale5fvLZEn6ahrwDC2tRRipZQK0" title="Discrete Mathematics">DM</a>
+                            <a class="dropdown-item" href="https://youtube.com/playlist?list=PLxCzCOWd7aiHMonh3G6QNKq53C6oNXGrX" title="Computer Organization And Architecture">COA</a>
+                            <a class="dropdown-item" href="https://youtube.com/playlist?list=PLPjSqITyvDeV84Qiruw4xVWGQPTctrlhg" title="Principle Of Economics And Management">PEM</a>
+    
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Courses 
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="https://www.youtube.com/watch?v=zkAr7P1S-c8">Information and Communication Technology</a>
+                            <a class="dropdown-item" href="https://skill-lync.com/electrical-engineering-courses">Electrical Engineering</a>
+                            <a class="dropdown-item" href="https://skill-lync.com/civil-engineering-courses">Civil and Infrastructure Engineering</a>
+                        </div>
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="http://localhost/Education/Vinit_Patel/DIET/BE/profile.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="OUR_CONTACTS.html">Contact Us</a>
+                </li>
+            </ul>
+           
+        </div>
+    </nav>
+
+    <form action="https://formspree.io/f/xdobwawy" method="POST" onsubmit="return validateForm(); phone();" autocomplete="off"  name="my-form" id="my-form">
+        <div class="modal-dialog modal-dialog-centered justify-content-center text-black" role="document">
+            <div class="modal-content border-0 mx-3">
+                <div class="modal-body p-0 ">
+                    <div class="row justify-content-center">
+                        <div class="col">
+                            <div class="card border-0">
+                                <div class="card-header p-3">
+                                    <div class="row align-items-center">
+                                        <div class="col-auto">
+                                            <h6 class="mb-0"><b>Contact Us</b></h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h6 class="card-title text-center"><b>Contact Our Team</b></h6>
+                                    <div class="row my-3">
+                                        <div class="col">
+                                            <div class="form-group mt-1 mb-1"> <input type="text" id="email"
+                                                    class="form-control pl-3 " name="First Name" required> <label
+                                                    class="ml-3 form-control-placeholder" for="email">First Name</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row my-3">
+                                        <div class="col">
+                                            <div class="form-group mt-1 mb-1"> <input type="text" id="email"
+                                                    class="form-control pl-3 " name="Last Name" required> <label
+                                                    class="ml-3 form-control-placeholder" for="email">Last Name</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row my-3">
+                                        <div class="col">
+                                            <div class="form-group mt-1 mb-1"> <input type="text" id="email"
+                                                    class="form-control pl-3 " name="Working-Email" required> <label
+                                                    class="ml-3 form-control-placeholder" for="email">Working
+                                                    Email</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row my-3">
+                                        <div class="col">
+                                            <div class="form-group mt-1 mb-1"> <input type="text" id="email"
+                                                    class="form-control pl-3 " name="Phone" required> <label
+                                                    class="ml-3 form-control-placeholder" for="phoneno">Phone</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label for="exampleFormControlTextarea1" class="form-label">Enter Your Message</label>
+                                        <textarea class="ml-3 form-control-placeholder" id="exampleFormControlTextarea1" rows="3" name="message" required></textarea>
+                                      </div>
+                                    <div class="row mt-4 mb-3">
+                                        <div class="col">
+                                            <button class="btn btn-primary" type="submit">Submit</button>
+                                            <input class="col btn btn-primary" type="reset" value="Reset" />
+                                        </div>
+                                    </div>
+                                    <div id="status"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    
+
+
+    <script src="./main.js"></script>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <script src="offcanvas.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

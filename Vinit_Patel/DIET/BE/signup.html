@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!--www.codingflicks.com-->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>signup</title>
+  <link href="style.css" rel="stylesheet">
+  <link rel="shortcut icon" href="book_img.png">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: poppins;
+      font-size: 16px;
+      color: #fff;
+    }
+
+    .form-box {
+      background-color: rgba(0, 0, 0, 0.5);
+      margin: auto auto;
+      padding: 40px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px #000;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 500px;
+      height: 430px;
+    }
+
+    .form-box:before {
+      background-image: url("https://www.marketplace.org/wp-content/uploads/2021/01/Books_New-e1611252343470.jpg?fit=2879%2C1619");
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      content: "";
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: -1;
+      display: block;
+      filter: blur(2px);
+    }
+
+    .form-box .header-text {
+      font-size: 32px;
+      font-weight: 600;
+      padding-bottom: 30px;
+      text-align: center;
+    }
+
+    .form-box input {
+      margin: 10px 0px;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      width: 100%;
+      font-size: 18px;
+      font-family: poppins;
+    }
+
+    .form-box input[type=checkbox] {
+      display: none;
+    }
+
+    .form-box label {
+      position: relative;
+      margin-left: 5px;
+      margin-right: 10px;
+      top: 5px;
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+    }
+
+    .form-box label:before {
+      content: "";
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border-radius: 5px;
+      position: absolute;
+      left: 0;
+      bottom: 1px;
+      background-color: #ddd;
+    }
+
+    .form-box input[type=checkbox]:checked+label:before {
+      content: "\2713";
+      font-size: 20px;
+      color: #000;
+      text-align: center;
+      line-height: 20px;
+    }
+
+    .form-box span {
+      font-size: 14px;
+    }
+
+    .form-box button {
+      background-color: rgb(127, 9, 206);
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+      font-size: 18px;
+      padding: 10px;
+      margin: 20px 0px;
+    }
+
+    span a {
+      color: #BBB;
+    }
+
+    * {
+      font-size: large;
+    }
+
+    .btn:hover,
+    .btn:active {
+      font-size: 150%;
+      color: #f4f4f5;
+    }
+  </style>
+ 
+  
+</head>
+
+<body>
+  
+   <form id="form1" action="http://localhost/Education/SignUp_code.php" onsubmit=" return check();" method="post" name="signup">
+      <div class="form-box">
+      <div class="header-text">
+      Sign Up
+    </div>
+    <p>Please fill in this form to create an account.</p><input placeholder="Your Email Address" type="text" name="Username" required>
+     <input placeholder="Enter Password" type="password" name="Password" required>
+      <input placeholder="Repeat Password" type="password" name="Re-Password" required> 
+      <input id="terms" type="checkbox" required> <label for="terms"></label><span>Agree with <a href="#">Terms & Conditions</a>
+      <a href="login1.html" 
+      style="color:rgba(5, 58, 230, 0.747);font-size: 19px;
+      margin-left:10px;
+      font-weight: 300;
+      padding-bottom: 10px;">Login</a></span>
+    <button >Sign in</button>
+    <div id="status"></div>
+
+  </div>
+</form>
+
+<script src="./signup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
